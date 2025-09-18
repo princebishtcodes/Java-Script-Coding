@@ -15,4 +15,4 @@ console.log(null >= 0); // here true because comparison converts in into int
 console.log(undefined == 0);
 // All the conditions are false
 // Now === this is used for strict check as it also matches the datatype strictly
-console.log("2" === 2);
+console.log("2" === 2); // false
