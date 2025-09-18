@@ -47,4 +47,5 @@ let myObject1 = myObject;
 myObject1.Email = "priyanshu@google.com"
 console.log(myObject.Email);
 console.log(myObject1.Email);
+console.log(myObject);
 // Both the values got changed as it has reference
