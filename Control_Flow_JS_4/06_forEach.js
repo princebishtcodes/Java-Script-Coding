@@ -29,5 +29,34 @@ function callMe(item) {
 // It also has the access to index and the whole array
 
 myHeros.forEach(  (items, index, arr) => {
-    console.log(items, index, arr);
+    // console.log(items, index, arr);
 }  )
+
+const marvelHeroes = [
+{
+    Name: "Steve Rogers",
+    Role: "Captain America",
+    Actor: "Chris Evans"
+},
+{
+    Name: "Tony Stark",
+    Role: "Iron Man",
+    Actor: "Robert Downey Jr"
+},{
+    Name: "Thor Odinson",
+    Role: "Thor",
+    Actor: "Chris Hemsworth"
+},{
+    Name: "Bruce Banner",
+    Role: "Hulk",
+    Actor: "Mark Ruffalo"
+},{
+    Name: "Peter Parker",
+    Role: "Spiderman",
+    Actor: "Tom Holland"
+}
+];
+
+marvelHeroes.forEach(   (items) => {
+    console.log(items.Name);
+}   )
