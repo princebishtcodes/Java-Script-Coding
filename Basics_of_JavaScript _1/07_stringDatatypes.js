@@ -2,7 +2,7 @@ let myName = "Prince";
 let repoCount = "5";
 let emailId = "princebisht@google.com"
 
-console.log(`My name is ${myName} and my Github Email Id is ${emailId} and my Repo Count is ${repoCount}...`);
+console.log(`My name is ${myName} and my email address is ${emailId} and my repo count is ${repoCount}...`)
 // This is an ideal way doing it
 // This is known as String Interpolation
 
@@ -12,7 +12,7 @@ console.log(gameName);
 console.log(gameName[0]);
 console.log(gameName.__proto__);
 console.log(gameName.length);
-console.log(myName.toUpperCase);
+console.log(myName.toUpperCase());
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf("n"));
 
