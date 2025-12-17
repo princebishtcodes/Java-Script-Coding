@@ -4,7 +4,7 @@ var emPassword = "Princeewjrt@123.,"
 AccountCity = "Chandigarh"
 let AccountState; 
 /*
-So basically we have only one way of assigning variable which is using const keyword.
+So basically we have only one way of assigning constant which is using const keyword.
 For variables two ways: var and let but prefer let because var has issue in block scope and functional scope
 */
 
